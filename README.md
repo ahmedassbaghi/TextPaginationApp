@@ -52,18 +52,7 @@ Tests are written with JUnit 5 and located in `src/test/java/PaginateTest.java`.
 To run the tests:
 
    mvn test
-
-## Output Example
-
-Input (`document.txt`):
-
-This is a very long sentence with many words to demonstrate pagination functionality and word wrapping.
-
-Output (`output.txt`):
-
-This is a very long sentence with many words to demonstrate pagination  
-functionality and word wrapping.  
---- Page 1 ---
+   
 
 ## Clean up
 
