@@ -31,11 +31,11 @@ The result is saved to `output.txt`.
 2. Edit or replace `document.txt` with your input text.
 
 3. Compile the application:
-
+   ```bash
    mvn compile
 
 4. Run the application:
-
+   ```bash
    mvn exec:java -Dexec.mainClass=Paginate
 
 5. Check the generated file `output.txt`.
@@ -50,9 +50,8 @@ Tests are written with JUnit 5 and located in `src/test/java/PaginateTest.java`.
 - Empty input → Verifies that no content produces empty output.
 
 To run the tests:
-
+   ```bash
    mvn test
-   
 
 ## Clean up
 
