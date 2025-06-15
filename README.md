@@ -52,6 +52,7 @@ Tests are written with JUnit 5 and located in `src/test/java/PaginateTest.java`.
 To run the tests:
    ```bash
    mvn test
+   ```
 
 ## Clean up
 
