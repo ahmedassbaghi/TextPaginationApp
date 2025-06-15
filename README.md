@@ -57,11 +57,6 @@ To run the tests:
 ## Clean up
 
 To remove compiled files:
-
+   ```bash
    mvn clean
-
-## Notes
-
-- Input must be a single line.
-- Words are separated by spaces.
-- Words longer than 80 characters are placed on their own line.
+   ```
